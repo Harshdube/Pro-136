@@ -1,0 +1,24 @@
+
+Open cmd :
+ ctrl + shift + c
+
+To create a virtual environment:
+
+python -m venv venv 
+venv\Scripts\activate.bat
+
+To install flask:
+pip install flask 
+
+To check the output for individual planet data : URL :
+http://127.0.0.1:5000/planet?name=18 Delphini b
+
+To check the output for the planet data (full) just run the code 
+
+Save the data file like :
+data = [{'name': '11 Comae Berenices b', 'distance_from_earth': '305.0', 'planet_mass': 6165.32, 'planet_type': 'Gas Giant', 'planet_radius': 12.096, 'distance_from_their_sun': '1.29 AU', 'orbital_period': '326 days', 'gravity': 413.7736760058701, 'orbital_speed': 430.27845944103615, 'specifications': ['goldilock']}
+
+Why do we use jsonify ?
+Ans - We need to return the data as a json file 
+Also helps in creating API's 
+    
